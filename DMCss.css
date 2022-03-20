@@ -1,0 +1,75 @@
+h1{
+    color : gray;
+    border-bottom: 2px solid gray;
+    margin-bottom: 0;
+}
+ 
+body{
+    background-color: rgb(243, 237, 237);
+}
+
+li{
+    list-style: none;
+}
+
+p{
+    color: gray;
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 1200px;
+    padding: 15px 1px 0px 100px;
+}
+
+div{
+    float: left;
+    color: blue;
+    border-right: 2px solid gray;
+    padding-bottom: 30px;
+}
+
+ul li{
+    position: relative;
+    padding: 6px;
+    
+}
+
+li ul{
+    position: absolute;
+    margin-left: 100px;
+    padding: 0;
+    top: 0;
+    display: none;
+}
+
+li:hover{
+    background: rgb(247, 217, 230);
+}
+
+li:hover > ul {
+    display: block;
+}
+
+div > ul >li:nth-child(2):hover{
+    background-color: pink;
+}
+div > ul >li:nth-child(3):hover{
+    background-color: pink;
+}
+
+div > ul{
+    padding: 0;
+    margin: 0;
+    width: 110px;
+}
+
+    
+
+
+
+
+
+
+
+
+
+
